@@ -19,7 +19,7 @@ int main() {
 	scanf("%d", &n1);
 	
 	printf("\n0 ");
-	n1--;
+	n1--; 
 	sequencia(n1,a,b,c);
-	
+
 }
