@@ -10,7 +10,6 @@ int sequencia(int n1, int a, int b, int c){
 		n1--;
 	}	
 }
-
 int main() {
 	int n1;
 	int a = 1, b = 0, c; 
@@ -21,5 +20,4 @@ int main() {
 	printf("\n0 ");
 	n1--; 
 	sequencia(n1,a,b,c);
-
 }

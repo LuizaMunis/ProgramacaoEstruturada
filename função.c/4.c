@@ -23,5 +23,4 @@ int main() {
     scanf("%f %f", &x, &y);
 
     quadrante(x, y);
-
-}
+} 

@@ -15,6 +15,5 @@ scanf("%lf %lf", &x1,&y1);
 printf ("Digite os dois valores do segundo ponto:");
 scanf("%lf %lf", &x2,&y2);
 
-
 printf("%.4lf", distancia(x1,x2,y1,y2));
 }

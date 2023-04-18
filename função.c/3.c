@@ -16,9 +16,7 @@ int main(){
    float r;
    printf("Defina o valor do raio:");
    scanf("%f", &r);
-
-
-
+   
   printf (" area= %.2f", area(r, pi));
   printf("\nvolume= %.2f", volume(r,pi));
-}
+} 

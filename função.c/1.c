@@ -15,4 +15,4 @@ int main() {
     printf("A diferença e: %d\n", diferenca(A, B, C, D));
 
     return 0;
-}
+} 

@@ -18,11 +18,8 @@ int main(){
             i++; 
 				
 		scanf("%d", &n);
-
 		}
-
 
 	printf("Maior: %d\n", maior);
 	printf("Menor: %d\n", menor);
-
 }
