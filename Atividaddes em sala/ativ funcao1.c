@@ -16,4 +16,4 @@ int main(){
  k = celsiuskelvin(c); //os dados tem que ser do mesmo tipo
 
 printf("%lf", k);
-} 
+}  

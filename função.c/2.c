@@ -7,7 +7,7 @@ return distancia;
 }
 int main(){
 
-double x1, x2, y1, y2;
+double x1, x2, y1, y2, sos;
 
 printf ("Digite os dois valores do primeiro ponto:");
 scanf("%lf %lf", &x1,&y1);
