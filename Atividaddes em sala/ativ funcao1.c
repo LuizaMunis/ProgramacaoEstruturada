@@ -1,18 +1,19 @@
 #include<stdio.h>
 #include<math.h>
-float graus(float C){
-    int result1;
-result1= (9* (C/5)+32);  
 
-return result1;
-
+double celsiuskelvin(float c){
+double k;
+k =c+273.15;
+return k;
 }
+
+
 int main(){
- float C;
+ float c;
+ double k;
+ scanf("%f",&c);
 
- printf("Digite quantos graus celsius:");
- scanf("%f",&C);
+ k = celsiuskelvin(c); //os dados tem que ser do mesmo tipo
 
-
- printf("Conversao de celsius p Fahrenheit %.2f", graus(C) );
+printf("%lf", k);
 }
