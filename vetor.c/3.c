@@ -1,23 +1,20 @@
 #include<stdio.h>
 int main(){
-    char letra[30];
-    int i=0, quant_letras;
+    char letras[30];
+    int i=0;
 
-    do
-    {
-    printf("Digite quantas letras quer digitar:");
-    scanf("%d",&quant_letras);
-    fflush (stdin);
-    } while (quant_letras<0 && quant_letras<30);
-    
-    for (i=0;i<quant_letras; i++)
-    {
-      printf("Digite uma letra:");
-      scanf("%c",&letra[i]);
-      fflush (stdin);
-    }
-    
-    for(i=0;i<quant_letras; i--){
-        printf("%c ", i letra[i]);
+    for(i=0;i<30;i++){
+      printf("Digite:");
+      scanf("%c",&letras[i]);
+      fflush(stdin);
+      
+      if(letras[i]==0){
+       printf("fim");continue;
+
+      }
+     }
+
+    for(i=29;i>=0;i--){
+      printf("%c",letras[i]);
     }
 }
