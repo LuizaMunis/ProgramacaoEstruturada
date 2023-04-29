@@ -1,20 +1,14 @@
 #include<stdio.h>
+#include<string.h>
+
 int main(){
     char letras[30];
-    int i=0;
+    int i;
 
-    for(i=0;i<30;i++){
-      printf("Digite:");
-      scanf("%c",&letras[i]);
-      fflush(stdin);
-      
-      if(letras[i]==0){
-       printf("fim");continue;
+ printf("Digite:");
+ scanf("%s",&letras);
 
-      }
-     }
-
-    for(i=29;i>=0;i--){
-      printf("%c",letras[i]);
-    }
+ for(i=srtlen(letras);i>0;i--){
+  printf("%c", letras[i]);
+ }
 }
